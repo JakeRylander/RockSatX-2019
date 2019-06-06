@@ -94,7 +94,7 @@ def FlagCheck(flag):
 def OpenDoor():
 	
 	#Open Door
-	DoorStepper.step(16000, dir = 'right') #right == open
+	DoorStepper.step(288000, dir = 'right') #right == open
 
 	print('Door Opened at T(sec)= ')
 	GetTime()
@@ -102,7 +102,7 @@ def OpenDoor():
 #Close Door
 def CloseDoor():
 	#Close Door
-	DoorStepper.step(16000, dir = 'left') #left == close 
+	DoorStepper.step(288000, dir = 'left') #left == close 
 
 	print('Door Closed at T(sec)= ')
 	GetTime()
