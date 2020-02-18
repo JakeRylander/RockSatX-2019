@@ -26,7 +26,7 @@ GPIO.setup(Step_Dir, GPIO.OUT)
 GPIO.setup(Step_Step, GPIO.OUT)
 
 #Stepper Setup
-DoorStepper = Stepper([Step_Ena,Step_Dir,Step_Step])
+DoorStepper = Stepper([Step_Step,Step_Dir,Step_Ena])
 
 #Function Definitions
 #Move Motor
